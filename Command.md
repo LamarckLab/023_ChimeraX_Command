@@ -20,6 +20,11 @@ split #1
 combine #2,3 name combined_model
 ```
 
+## 04 改变单个结构的透明度
+```
+transparency #1 50
+```
+
 ## 04 导出
 ```
 
