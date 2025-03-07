@@ -17,5 +17,10 @@ split #1
 
 ## 03 把几个结构整合在一起
 ```
+combine #2,3 name combined_model
+```
+
+## 04 导出
+```
 
 ```
