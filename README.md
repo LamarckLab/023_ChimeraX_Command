@@ -1,0 +1,2 @@
+# 029_Structural_Bio_ChimeraX_Command
+记录了ChimeraX中一些常用的指令
