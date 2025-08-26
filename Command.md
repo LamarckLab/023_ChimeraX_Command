@@ -14,12 +14,8 @@ open asu.pdb
 
 *03  关闭某个结构文件*
 ```bash
-close #1
-```
-
-*04  关闭全部结构文件*
-```bash
-close all
+close #1 # 关闭单个文件
+close all # 关闭全部文件
 ```
 
 *05  导出选中的结构*
@@ -27,7 +23,7 @@ close all
 save asu.pdb selectedOnly true
 ```
 
-*06  选中某条链的连续残基（选中模型一A链的100-200残基）*
+*06  选中某条链的残基（选中模型一A链的100-200残基）*
 ```bash
 select #1/A:100-200
 ```
@@ -41,5 +37,12 @@ select #1/A:100-200
 ```bash
 split #1
 ```
+
+*09  删除某个氨基酸，从而实现链的断开*
+```bash
+delete #1/C: 72
+delete #1/C: 72-78
+```
+
 
 
