@@ -27,7 +27,10 @@ close all
 select #1/A:100-200
 ```
 
-
+*06  选中某条链的离散残基（选中模型一A链的100-200残基）*
+```bash
+select #1/A:100-200
+```
 
 
 ## 02 拆开聚合物的每一条链
@@ -42,12 +45,13 @@ combine #2,3 name combined_model
 
 ## 04 改变单个结构的透明度
 ```
-transparency #1 50
+？？？？？
 ```
 
-## 04 导出选中的结构
+## 05 导出选中的结构
 ```
 save asu.pdb selectedOnly true
 ```
+
 
 
