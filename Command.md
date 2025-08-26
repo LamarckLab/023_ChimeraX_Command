@@ -32,6 +32,11 @@ select #1/A:100-200
 select #1/A:100-200
 ```
 
+*07  按链拆分模型*
+```bash
+split #2
+```
+
 
 ## 02 拆开聚合物的每一条链
 ```
@@ -52,6 +57,7 @@ combine #2,3 name combined_model
 ```
 save asu.pdb selectedOnly true
 ```
+
 
 
 
