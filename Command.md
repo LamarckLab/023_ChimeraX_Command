@@ -25,7 +25,8 @@ combine #2,3 name combined_model
 transparency #1 50
 ```
 
-## 04 导出
+## 04 导出选中的结构
+```
+save asu.pdb selectedOnly true
 ```
 
-```
