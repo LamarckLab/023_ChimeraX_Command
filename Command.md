@@ -55,8 +55,9 @@ mm #3 to #1
 按住Ctrl+Shift，左键
 ```
 
-*12  自动选中复合物的相互作用位点*
+*13  自动选中复合物的相互作用位点*
 ```bash
 Molecule Dispaly导航栏中点Interfaces，在右下角无向图中左键某条线，选择Select contact residues of xx and xx
 ```
+
 
