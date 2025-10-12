@@ -1,5 +1,5 @@
 ## Lamarck &nbsp; &nbsp; &nbsp; 2025-8-26
-#### 该文档用于记录ChimeraX的常用指令
+#### 该文档用于记录ChimeraX的常用指令、功能
 ---
 
 *01  查看ChimeraX的工作目录*
@@ -53,4 +53,9 @@ mm #3 to #1
 *12  连续选中残基*
 ```bash
 按住Ctrl+Shift，左键
+```
+
+*12  自动选中复合物的相互作用位点*
+```bash
+Molecule Dispaly导航栏中点Interfaces，在右下角无向图中左键某条线，选择Select contact residues of xx and xx
 ```
