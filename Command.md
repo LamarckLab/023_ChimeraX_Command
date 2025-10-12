@@ -27,6 +27,7 @@ save asu.pdb selectedOnly true
 ```bash
 select #1/A:100-200  #选中连续的残基
 select #1/A:100,150,200  #选中离散的残基
+select ~sel  #反选残基
 ```
 
 *08  按链拆分某个模型*
@@ -59,5 +60,6 @@ mm #3 to #1
 ```bash
 Molecule Dispaly导航栏中点Interfaces，在右下角无向图中左键某条线，选择Select contact residues of xx and xx
 ```
+
 
 
