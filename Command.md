@@ -61,5 +61,9 @@ mm #3 to #1
 Molecule Dispaly导航栏中点Interfaces，在右下角无向图中左键某条线，选择Select contact residues of xx and xx
 ```
 
+*14  把结构导出为png并设置透明背景*
+```bash
+save output.png transparentBackground true
+```
 
 
