@@ -66,4 +66,9 @@ Molecule Dispaly导航栏中点Interfaces，在右下角无向图中左键某条
 save output.png transparentBackground true
 ```
 
+*15  手动设置选中片段的颜色*
+```bash
+选中结构后，导航栏依次点: Actions-color
+```
+
 
