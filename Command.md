@@ -73,8 +73,10 @@ save output.png transparentBackground true
 
 *16  处理T3中的ASU -- 给链命名，从1开始标号*
 ```bash
-
+# 当前pdb有三条链，但是编号是: /A 1-245, /B 246-440, /B 442-637
+# 需要改造成: /A 1-245, /B 1-195, /C 1-196
 ```
+
 
 
 
