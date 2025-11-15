@@ -94,11 +94,12 @@ changechains #3 C
 
 combine #1-3 name ABC
 save ABC.pdb model #4
-close #1|#2|#3|#4
+close #1-4
 
 open ABC.pdb
 renumber #1 start 1 relative false
 ```
+
 
 
 
