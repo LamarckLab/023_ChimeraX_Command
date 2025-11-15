@@ -71,4 +71,10 @@ save output.png transparentBackground true
 选中结构后，导航栏依次点: Actions-color
 ```
 
+*16  处理T3中的ASU -- 给链命名，从1开始标号*
+```bash
+
+```
+
+
 
