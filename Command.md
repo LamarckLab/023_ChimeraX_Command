@@ -91,7 +91,12 @@ open C_chain.pdb
 changechains #1 A
 changechains #2 B
 changechains #3 C
+
+combine #1-3 name ABC
+save ABC.pdb model #4
+
 ```
+
 
 
 
