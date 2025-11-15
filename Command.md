@@ -75,7 +75,24 @@ save output.png transparentBackground true
 ```bash
 # 当前pdb有三条链，但是编号是: /A 1-245, /B 246-440, /B 442-637
 # 需要改造成: /A 1-245, /B 1-195, /C 1-196
+
+select #1/A:1-245
+save A_chain.pdb selectedOnly true
+select #1/B:246-440
+save B_chain.pdb selectedOnly true
+select #1/B:442-637
+save C_chain.pdb selectedOnly true
+
+close #1
+open A_chain.pdb
+open B_chain.pdb
+open C_chain.pdb
+
+changechains #1 A
+changechains #2 B
+changechains #3 C
 ```
+
 
 
 
