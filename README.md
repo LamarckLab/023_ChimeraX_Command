@@ -31,6 +31,5 @@
 |------|------|
 | **Command.md** | 常用命令（open/close/save/select 等） |
 | **Option.md** | 常用菜单操作路径（如 Fit in map） |
-| **README.md** | 本文档 |
 
 ---
