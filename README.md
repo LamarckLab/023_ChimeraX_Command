@@ -1,4 +1,4 @@
-<h1 align="center">🧪 ChimeraX 常用命令与快捷键笔记</h1>
+<h1 align="center">🧬 ChimeraX 常用命令与快捷键笔记</h1>
 
 <p align="center">
   <i> —— 2025.3.7</i>
