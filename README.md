@@ -1,7 +1,7 @@
 <h1 align="center">🧪 ChimeraX 常用命令与快捷键笔记</h1>
 
 <p align="center">
-  <i> —— 2025.11.16</i>
+  <i> —— 2025.3.7</i>
 </p>
 
 <p align="center">
