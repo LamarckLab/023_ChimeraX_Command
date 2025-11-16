@@ -98,7 +98,9 @@ close #1-4
 
 open ABC.pdb
 renumber #1 start 1 relative false
+save ABC.pdb model #1
 ```
+
 
 
 
