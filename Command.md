@@ -46,7 +46,7 @@ delete #1/C: 72-78  #删除离散残基
 select zone #1/C:260-268 5  #选中距离目标片段距离在5埃内的残基
 ```
 
-*11  把model1和model2叠在一起（看结构上的突变、差异）*
+*11  把model1和model2叠在一起(看结构上的突变、差异)(log里面会自动把RMSD计算出来)*
 ```bash
 mm #3 to #1
 ```
@@ -100,6 +100,7 @@ open ABC.pdb
 renumber #1 start 1 relative false
 save ABC.pdb model #1
 ```
+
 
 
 
