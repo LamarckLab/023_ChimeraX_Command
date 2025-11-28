@@ -101,6 +101,12 @@ renumber #1 start 1 relative false
 save ABC.pdb model #1
 ```
 
+*17  调整选中部分的透明度*
+```bash
+transparency sel 60 target ac
+```
+
+
 
 
 
